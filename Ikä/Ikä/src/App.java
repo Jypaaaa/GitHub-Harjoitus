@@ -7,10 +7,12 @@ public class App {
             if (ika >= 15) {
                 System.out.println("Saat ajaa mopoa");
             }
-        
+        //Määritellään, saako ajaa kevaria
             if (ika >= 16 && ika < 18) {
                 System.out.println("Saat ajaa kevaria");
             }
+
+            //Määritellään eri iät ja printattu teksti
         } else if (ika == 18) {
             System.out.println("Olet juuri tullut täysi-ikäiseksi ja saat ajaa autoa");
         } else if (ika >= 65) {
