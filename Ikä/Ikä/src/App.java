@@ -2,8 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         int ika = 35;
         if (ika > 0 && ika < 18) {
+
+            //Määritellään onko alaikäinen
             System.out.println("Olet alaikäinen");
-        
+        //Määritellään saako ajaa mopoa
             if (ika >= 15) {
                 System.out.println("Saat ajaa mopoa");
             }
